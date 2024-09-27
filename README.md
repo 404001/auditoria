@@ -41,3 +41,9 @@ sudo ip link set <interface> promisc off
 return `Una aplicacion esta usando el modo promiscuo por lo q no puede ser deshabilitado`
 
 En este caso es `VirtualBox` que esta usando ese modo debido a las maquinas virtuales con los modos de red de `Bridge` o `Internal Network`
+
+---
+
+- **PKGS-7392** - Vulnerable Package
+
+Esto se puede solucionar haciendo un `sudo apt update && sudo apt upgrade` debido a que algunos paquetes no estan actualizados y pueden tener vulnerabilidades.
