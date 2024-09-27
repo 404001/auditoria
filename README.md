@@ -1,5 +1,10 @@
 > [!IMPORTANT]
 > Esta auditoria a sido realizada a modo te prueba de use de `lynis` bajo la supervision de un profesor.
+> 
+> Para instalar el programa usa.
+> ```
+> sudo apt install lynis
+> ```
 
 ## Auditoria
 Esta auditoria se ha realizado el `27 de sep 19:42` por Jose Daniel Moreno Lopez
