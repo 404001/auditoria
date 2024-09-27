@@ -47,3 +47,17 @@ En este caso es `VirtualBox` que esta usando ese modo debido a las maquinas virt
 - **PKGS-7392** - Vulnerable Package
 
 Esto se puede solucionar haciendo un `sudo apt update && sudo apt upgrade` debido a que algunos paquetes no estan actualizados y pueden tener vulnerabilidades.
+
+---
+
+- **AUTH-9230** - Hash Method
+
+```
+https://cisofy.com/lynis/controls/AUTH-9230/
+```
+
+Configurar el hasheo de contraseñas de `SHA-512` a `SHA-256` en la ruta `/etc/login.defs`
+```
+sudo nano /etc/login.defs
+```
+Y cambiamos a `ENCRYPT METHOD SHA256`
