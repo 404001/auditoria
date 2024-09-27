@@ -39,3 +39,5 @@ Ahora desactivamos la interfaces que esten en modo promiscuo.
 sudo ip link set <interface> promisc off
 ```
 return `Una aplicacion esta usando el modo promiscuo por lo q no puede ser deshabilitado`
+
+En este caso es `VirtualBox` que esta usando ese modo debido a las maquinas virtuales con los modos de red de `Bridge` o `Internal Network`
